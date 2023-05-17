@@ -19,5 +19,17 @@
     </div>
   <!-- JS BS -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    if (location.pathname == "/" || (window.location.href.indexOf("Index") > -1)){
+       var typed = new Typed('.typed', {
+      strings: ['<span class="text-primary">Marco Contreras</span>', '<i class="text-danger"><b>F</b>ullstack <b>R</b>uby <b>O</b>n <b>R</b>ails<i>'],
+      typeSpeed: 70,
+      loop: true,
+      backSpeed: 50
+      });
+    }
+  </script>
+</body>
   </body>
 </html>
