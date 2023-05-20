@@ -1,7 +1,6 @@
-<h2 class="text-center text-uppercase py-4">Contacto</h2>
 <div class="row mt-5">
 	<div class="col-10 col-md-6 mx-auto">
-		<div class="card p-3 bg-dark">
+		<div class="card p-3 bg-dark bg-gradient">
 		<%= form_tag("", method: "get", id:"formulario") do %>
 		  <%= tag.div class: "form-floating mb-3" do %>
 		  	<%= text_field_tag(:name, "", class: "form-control", placeholder:"Nombre", required: true)  %>

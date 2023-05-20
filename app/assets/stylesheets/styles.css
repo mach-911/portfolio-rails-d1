@@ -1,4 +1,54 @@
 body {
   background-image: url(bg-attach.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.my-btn {
+  background: #323;
+  text-decoration: none;
+  color: #f4f2f3;
+  border-radius: 38px;
+  padding: 5px 15px;
+}
+
+.my-btn:hover {
+  color: #f93;
+  background: #222;
+}
+
+.btn {
+	border-radius: 0 !important;
+}
+
+.card {
+	overflow: hidden;
+	background-color: #000;
+}
+
+.card-img-top {
+	height: 600px;
+	object-fit: cover;
+	filter: grayscale(1);
+	transition: filter, transform .3s ease;
+}
+.card-img-top:hover {
+	filter: grayscale(0);
+	transform: scale(1.03);
+}
+
+
+.card-footer {
+	text-align: center;	
+}
+
+footer {
+	font-size: 19px;
+}
+@media(max-width: 768px){
+	.navbar {
+		border-bottom:2px solid #ccc;
+	}	
 }
