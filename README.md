@@ -1,24 +1,12 @@
-# README
+## Desafio Viajes Chile
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- **Módulo**: Introducción a desarrollo de aplicaciones con Ruby on Rails
+- **Programa**: Desarrollo Ruby on Rails para emprendimientos de tipo Startup - 0047
 
-Things you may want to cover:
 
-* Ruby version
+---
 
-* System dependencies
+### Despliegue
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[<img src="https://fly.io/static/images/brand/logo-landscape-dark.svg" height="40">](https://portfolio-rails-d1.fly.dev/)
