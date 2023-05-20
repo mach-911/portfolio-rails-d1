@@ -1,4 +1,4 @@
-## Desafio Viajes Chile
+## Desafío - Creación de un proyecto nuevo
 
 - **Módulo**: Introducción a desarrollo de aplicaciones con Ruby on Rails
 - **Programa**: Desarrollo Ruby on Rails para emprendimientos de tipo Startup - 0047
